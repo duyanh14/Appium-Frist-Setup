@@ -27,7 +27,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  *
  * @author Duy Nguyen
  */
-public class Appium {
+public class Main {
 
     protected static AndroidDriver driver;
 
@@ -50,7 +50,7 @@ public class Appium {
             driver.findElement(By.id("com.android.calculator2:id/digit_9")).click();
 
         } catch (Exception ex) {
-            Logger.getLogger(Appium.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
 
         }
     }
